@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Rolling Dice Game</title>
+    <link rel="stylesheet" type="text/css" href="styles.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Comforter&family=Delicious+Handrawn&family=Homemade+Apple&family=Indie+Flower&family=La+Belle+Aurore&family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&family=League+Script&family=Nanum+Myeongjo&family=Press+Start+2P&family=Quicksand&family=Shadows+Into+Light&display=swap&family=Tilt+Neon&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      rel="stylesheet"
+      href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css"
+    />
+  </head>
+  <body class="game-body">
+    <img src="img/game-logo.jpg" alt="squid game logo" class="gameLogo-image" />
+    <div class="container">
+      <h1 class="dice-title">Level 4: ROLL MASTER!</h1>
+      <h3 class="winner-display">Are you Ready?</h3>
+      <div class="row" id="controls-container">
+        <div class="col-4" id="diceBtn-player1">
+          <h2 class="player-label">Player 1</h2>
+          <img
+            src="img/Dice-1.png"
+            alt="white dice"
+            class="img-dice"
+            id="imgDice-player1"
+          />
+          <div class="score">
+            <p class="current_label" id="current_label">Score</p>
+            <p class="current_score" id="current_0">0</p>
+          </div>
+        </div>
+
+        <div class="col-4">
+          <button id="dice-btn" onclick="diceGame()">Roll Dice!</button>
+          <br />
+          <button id="diceNew-btn" onclick="diceNewGame()">New Game</button>
+        </div>
+        <div class="col-4" id="diceBtn-player2">
+          <h2 class="player-label">Player 2</h2>
+          <img src="img/Dice-1.png" alt="white dice" class="img-dice" />
+          <div class="score">
+            <p class="current_label" id="current_label">Score</p>
+            <p class="current_score" id="current_1">0</p>
+          </div>
+        </div>
+      </div>
+
+      <p class="instructions">
+        Who is our next Champion? Roll the dice 5 times to find out!
+      </p>
+    </div>
+
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+    <script src="script.js"></script>
+  </body>
+</html>

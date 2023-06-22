@@ -1,0 +1,130 @@
+body {
+  margin: 0;
+  padding: 0;
+  background-image: url(img/squid-game.png);
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.container {
+  text-align: center;
+  width: 60%;
+  margin: 0 auto;
+  margin-top: 4px;
+  border-radius: 5px;
+  padding: 2%;
+}
+
+.dice-title {
+  font-size: 180%;
+  font-weight: 600;
+  color: #1dc563;
+  font-family: "Shadows Into Light", cursive;
+  padding: 1% 0 2% 0;
+}
+
+.player-label {
+  font-size: 140%;
+  color: #ffbf00;
+  font-weight: 600;
+  font-family: "Shadows Into Light", cursive;
+}
+
+#controls-container {
+  margin: 0 auto;
+  width: 80%;
+  padding: 3% 0 0 0;
+}
+
+#current_label {
+  padding: 4% 0 0 0;
+  font-size: 130%;
+  color: #ffbf00;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.current_score {
+  font-size: 120%;
+  font-weight: bold;
+  color: #ffbf00;
+  font-family: "Times New Roman", Times, serif;
+}
+
+.winner-display {
+  margin: 0 auto;
+  font-size: 110%;
+  font-weight: 600;
+  padding: 1% 0 1% 0;
+  width: 40%;
+  color: #ffbf00;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  background-color: #000000bd;
+  box-shadow: 3px 3px 8px #d1d1d1af;
+  border-radius: 5px;
+}
+
+#dice-btn,
+#diceNew-btn {
+  display: block;
+  margin: 0 auto;
+  background-color: #19110faf;
+  box-shadow: 2px 2px 5px #ff7000, -2px -2px 5px rgb(121, 121, 121);
+  border: solid 2px #3e4a61;
+  color: #fff;
+  font-size: 100%;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  padding: 2% 6%;
+  border-radius: 20px;
+}
+
+#dice-btn {
+  margin-top: 40px;
+}
+
+#dice-btn:hover {
+  background-color: rgb(255, 153, 0);
+  border: none;
+  cursor: pointer;
+  color: #000;
+  box-shadow: 2px 2px 3px rgb(255, 153, 0);
+  opacity: 90%;
+}
+
+#diceNew-btn:hover {
+  background-color: rgb(255, 153, 0);
+  border: none;
+  cursor: pointer;
+  color: #000;
+  box-shadow: 2px 2px 3px rgb(255, 153, 0);
+  opacity: 90%;
+}
+
+.instructions {
+  margin: 0 auto;
+  color: rgb(252, 239, 223);
+  font-size: 100%;
+  font-weight: 400;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  width: 60%;
+  border-radius: 8px;
+  border: none;
+  padding: 1%;
+  border: solid 1px rgb(121, 121, 121);
+  border-radius: 20px;
+}
+
+/* Images */
+.gameLogo-image {
+  display: block;
+  margin: auto;
+  width: 200px;
+  box-shadow: 1px 1px 4px 4px #ffffff67;
+  border-radius: 20px;
+  margin-top: 30px;
+}
+
+.img-dice {
+  width: 50%;
+  border-radius: 15%;
+  box-shadow: 4px 4px 7px rgb(121, 121, 121), -4px -4px 7px rgb(121, 121, 121);
+}
